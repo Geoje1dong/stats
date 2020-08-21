@@ -1,0 +1,42 @@
+.container{
+  width:1400px;
+  margin:0 auto;
+}
+
+form{
+  display:flex;
+  flex-flow:wrap;
+}
+
+.container > form > div{
+  width:5%;
+  padding:8px;
+  margin-bottom:8px;
+  /* margin:8px; */
+}
+
+.container > form > div > label,
+.container > form > div > span{
+  display:block;
+  margin-bottom:4px;
+}
+
+.container > form > div > input{
+  width:100%;
+  padding:8px;
+}
+
+p{
+  line-height: 1em;
+}
+
+button{
+  line-height: 40px;
+  display:block;
+  width: 400px;
+  margin: 20px auto;
+  background: #3F51B5;
+  border: 0;
+  color: #fff;
+  border-radius: 4px;
+}

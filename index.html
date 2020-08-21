@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>baseball stats</title>
+    <link rel="stylesheet" type="text/css" href="./base.css" />
+  </head>
+  <body>
+    <div class='container'>
+    <h1>Batting Stats</h1>
+    <div class="container">
+      <form id='bat'>
+        <div>
+          <label>G</label>
+          <input onclick="stats('game')" name='game' type='number' id='game' class='batting' value='144'/>
+        </div>
+        <div>
+          <label>At Basts</label>
+          <input name='atBats' type='number' id='atBats' class='batting' value='543'/>
+        </div>
+        <div>
+          <label>Runs</label>
+          <input name='runs' type='number' id='runs' class='batting' value='81'/>
+        </div>
+        <div>
+          <label>Hits</label>
+          <input name='hits' type='number' id='hits' class='batting' value='181'/>
+        </div>
+        <div>
+          <label>2B</label>
+          <input name='2b' type='number' id='2b' class='batting' value='30'/>
+        </div>
+        <div>
+          <label>3B</label>
+          <input name='3b' type='number' id='3b' class='batting' value='0'/>
+        </div>
+        <div>
+          <label>HR</label>
+          <input name='hr' type='number' id='hr' class='batting' value='37'/>
+        </div>
+        <div>
+          <label>RBI</label>
+          <input name='rbi' type='number' id='rbi' class='batting' value='125'/>
+        </div>
+        <div>
+          <label>BB</label>
+          <input name='bb' type='number' id='bb' class='batting' value='43'/>
+        </div>
+        <div>
+          <label>K</label>
+          <input name='k' type='number' id='k' class='batting' value='75'/>
+        </div>
+        <div>
+          <label>HBP</label>
+          <input name='hbp' type='number' id='hbp' class='batting' value='14'/>
+        </div>
+        <div>
+          <span>AVG</span>
+          <p id='avg'></p>
+        </div>
+        <div>
+          <span>OBP</span>
+          <p id='obp'></p>
+        </div>
+        <div>
+          <span>SLG</span>
+          <p id='slg'></p>
+        </div>
+        <div>
+          <span>OPS</span>
+          <p id='ops'></p>
+        </div>
+        <button type='submit'>결과</button>
+      </form>
+    </div>
+    </div>
+  </body>
+  <script src="./base.js"></script>
+</html>
